@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/pixelstyle/audio/ringtones/Crackle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Crackle.ogg \
     vendor/pixelstyle/audio/ringtones/Flutterby.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Flutterby.ogg \
     vendor/pixelstyle/audio/ringtones/Hotline.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Hotline.ogg \
+    vendor/pixelstyle/audio/ringtones/HornbillTune.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/HornbillTune.ogg \
     vendor/pixelstyle/audio/ringtones/Leaps_and_bounds.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Leaps_and_bounds.ogg \
     vendor/pixelstyle/audio/ringtones/Lollipop.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Lollipop.ogg \
     vendor/pixelstyle/audio/ringtones/Lost_and_found.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Lost_and_found.ogg \
@@ -83,6 +84,6 @@ PRODUCT_COPY_FILES += \
 
 # Change default sounds
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=The_big_adventure.ogg \
+    ro.config.ringtone=HornbillTune.ogg \
     ro.config.notification_sound=Popcorn.ogg \
     ro.config.alarm_alert=Bright_morning.ogg
