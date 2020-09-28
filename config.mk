@@ -79,6 +79,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     QKSMS
 
+#BNotes
+PRODUCT_PACKAGES += \
+    BNotes
+
+
 # Include product overlays
 PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
