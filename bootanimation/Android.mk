@@ -48,7 +48,7 @@ $(TARGET_GENERATED_BOOTANIMATION): $(SOONG_ZIP)
 	done; \
 	prebuilts/tools-lineage/${HOST_OS}-x86/bin/mogrify -resize $$RESOLUTION -colors 250 $(INTERMEDIATES)/*/*.png; \
 	echo "$$IMAGESCALEWIDTH $$IMAGESCALEHEIGHT 30" > $(INTERMEDIATES)/desc.txt; \
-	cat vendor/hornbill/bootanimation/desc.txt >> $(INTERMEDIATES)/desc.txt
+	cat vendor/aosp/bootanimation/desc.txt >> $(INTERMEDIATES)/desc.txt
 	$(hide) $(SOONG_ZIP) -L 0 -o $(TARGET_GENERATED_BOOTANIMATION) -C $(INTERMEDIATES) -D $(INTERMEDIATES)
 
 ifeq ($(TARGET_BOOTANIMATION),)
