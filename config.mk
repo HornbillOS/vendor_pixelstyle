@@ -75,9 +75,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
 
-#QKSMS
-PRODUCT_PACKAGES += \
-    QKSMS
 
 #BNotes
 PRODUCT_PACKAGES += \
