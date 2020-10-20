@@ -29,7 +29,7 @@
     <string name="config_screenshotEditor">com.google.android.markup/com.google.android.markup.AnnotateActivity</string>
 
     <!-- The default tiles to display in QuickSettings -->
-    <string name="quick_settings_tiles_default">cell,wifi,bt,dnd,flashlight,rotation,battery,airplane,night</string>
+    <string name="quick_settings_tiles_default">cell,wifi,bt,dnd,flashlight,rotation,battery,airplane,night,location,dark,hotspot</string>
 
     <!-- Launcher package name for overlaying icons. -->
     <string name="launcher_overlayable_package">com.google.android.apps.nexuslauncher</string>
